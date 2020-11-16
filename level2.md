@@ -1,0 +1,11 @@
+### Level 2
+
+```sh
+bandit1@bandit:~$ ssh bandit2@localhost
+bandit2@bandit:~$ ls
+spaces in this filename
+bandit2@bandit:~$ cat spaces\ in\ this\ filename 
+UmHadQclWmgdLOKQ3YNgjWxGoRMb5luK
+bandit2@bandit:~$ cat 'spaces in this filename'
+UmHadQclWmgdLOKQ3YNgjWxGoRMb5luK
+```
