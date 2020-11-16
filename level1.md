@@ -1,7 +1,7 @@
 ### Level 1
-Logged out of bandit0
+
 ```sh
-gurukiran@ch3ster:~$ ssh bandit1@bandit.labs.overthewire.org -p 2220
+bandit0@bandit:~$ ssh bandit1@localhost
 This is a OverTheWire game server. More information on http://www.overthewire.org/wargames
 
 bandit1@bandit.labs.overthewire.org's password: 
