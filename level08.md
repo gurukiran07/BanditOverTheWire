@@ -11,4 +11,6 @@ bandit8@bandit:~$ ls -a
 .  ..  .bash_logout  .bashrc  data.txt  .profile
 bandit8@bandit:~$ sort data.txt | uniq -u 
 UsvVyFSfZZWbi6wgC7dAFyFuR6jQQUhR
+bandit8@bandit:~$ sort data.txt | uniq -c | grep -w '1'
+      1 UsvVyFSfZZWbi6wgC7dAFyFuR6jQQUhR
 ```
